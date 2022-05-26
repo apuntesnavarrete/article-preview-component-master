@@ -14,6 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .header{
     max-width:350px ;
@@ -22,3 +23,18 @@ body{
 .header_img{
     max-width: 300px;
 }
+
+.main{
+    max-width: 300px;
+}
+
+
+@media (min-width: 1000px) {
+    body {
+        flex-direction: row;
+    }
+    .main{
+        max-width: 500px;
+
+    }
+  }
