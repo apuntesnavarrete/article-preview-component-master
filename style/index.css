@@ -7,7 +7,8 @@
 *{
     font-size: 13px;
     box-sizing: border-box ;
-
+    margin: 0;
+    padding: 0;
 }
 body{
     font-size: 1rem;
@@ -36,6 +37,7 @@ body{
     margin-top: -3px;
     max-width: 300px;
     background-color: white;
+    border-radius: 10px;
 }
 .titles{
     font-size: 0.6em;
@@ -50,13 +52,29 @@ body{
 }
 .footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    margin :20px 0px 20px 0px;
 }
 .footer-img_perfil{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+.footer-description{
+    margin-right: 25px;
+
+}
+
+.footer_name{
+    margin-bottom: 7px;
+    font-weight: 700;
+    color: var(--Very-Dark-Grayish-Blue);
+
+}
+.footer_date{
+    color: var(--Desaturated-Dark-Blue);
+
 }
 .footer-img_compartir{
     width: 20px;
