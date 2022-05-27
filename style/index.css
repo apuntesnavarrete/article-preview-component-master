@@ -84,10 +84,6 @@ body{
     body {
         flex-direction: row;
     }
-    .main{
-        max-width: 500px;
-
-    }
     
     .header_img{
         border-radius: 10px 0px 0px 10px;
@@ -95,7 +91,9 @@ body{
         height: 273px;
     }
     .main{
-        width: 315px;
+        padding: 15px 54px;
+        height: 276px;
+        max-width: 400px;
         border-radius: 0px 10px 10px 0px;
 
     }
