@@ -98,3 +98,8 @@ body{
 
     }
   }
+  @media (max-width: 600px) and (orientation: landscape) { 
+      body{
+        height: 140vh;
+      }
+   }
