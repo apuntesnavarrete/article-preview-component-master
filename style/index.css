@@ -14,6 +14,7 @@ body{
     font-size: 1rem;
     font-family: 'Manrope', sans-serif;
     width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +22,6 @@ body{
     background-color: var(--Light-Grayish-Blue);
 }
 .header{
-    margin-top: 30px ;
     max-width:350px ;
 }
 
@@ -37,7 +37,7 @@ body{
     margin-top: -3px;
     max-width: 300px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
 }
 .titles{
     font-size: 0.6em;
@@ -86,6 +86,17 @@ body{
     }
     .main{
         max-width: 500px;
+
+    }
+    
+    .header_img{
+        border-radius: 10px 0px 0px 10px;
+        width: 270px;
+        height: 273px;
+    }
+    .main{
+        width: 315px;
+        border-radius: 0px 10px 10px 0px;
 
     }
   }
